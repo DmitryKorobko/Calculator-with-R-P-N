@@ -1,0 +1,107 @@
+#bodyOfCalc {
+  width: 300px;
+  height: 410px;
+  background-color: #708090;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: groove;
+  border-width: 5px;
+  border-radius: 15px;
+  border-color: #696969;
+}
+
+#nameOfCalc {
+  color: #FFD700;
+}
+
+#placeForbuttons {
+  width: 270px;
+  height: auto;
+  margin-left: 20px;
+  margin-right: auto;
+}
+
+.buttons {
+  width: 40px;
+  height: 30px;
+  background: #FFE4B5;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 5px;
+  border-color: #696969;
+}
+
+#screenOfCalc {
+  background-color: #E0FFFF;
+  width: 280px;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 2px;
+  text-align: right;
+}
+
+.sunBattery {
+  width: 15px;
+  height: 15px;
+  border-style: solid;
+  border-width: 1px;
+  background-color: #8B4513;
+  float: right;
+}
+
+#sunBattery {
+  margin-right: 20px;
+}
+
+#sunBatteryAndName {
+  margin-left: 20px;
+  height: 35px;
+}
+
+#underScreenPlace {
+  width: 240px;
+  height: 25px;
+}
+
+.base {
+  background: #DEB887;
+}
+
+.memButton {
+  background: #F4A460;
+}
+
+.reset {
+  background: #FF4500;
+}
+
+.activeButton {
+  width: 40px;
+  height: 30px;
+  background: #FFD700;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 5px;
+  border-color: #00FFFF;
+}
+
+.activeRPN {
+  width: 40px;
+  height: 30px;
+  background: #8B0000;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 5px;
+  border-color: #00FFFF;
+}
+
+#description {
+  color:#2F4F4F;
+  
+}
+
+body {
+  background:#FFFACD;
+}

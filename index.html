@@ -1,0 +1,82 @@
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="js/jquery.js"></script>  
+  <script src="js/underscore.js"></script>
+  <script src="js/backbone.js"></script>
+  <script src="js/main.js"></script>
+</head>
+
+<body>
+  <div id="bodyOfCalc">
+    <div id='sunBatteryAndName'>
+      <p></p>
+      <div id='sunBattery'>
+        <div class='sunBattery'></div>
+        <div class='sunBattery'></div>
+        <div class='sunBattery'></div>
+        <div class='sunBattery'></div>
+      </div>
+      <h4 id="nameOfCalc">SteinCalc</h4>
+    </div>
+    <div id="screenOfCalc"></div>
+    <div id='underScreenPlace'></div>
+    <div id="placeForButtons">
+      <p id="memoryButtons">
+        <button id="mSave" class="buttons action memButton">MS</button>
+        <button id="mRead" class="buttons action memButton">MR</button>
+        <button id="mClear" class="buttons action memButton">MC</button>
+        <button id="mPlus" class="buttons action memButton">M+</button>
+        <button id="mMinus" class="buttons action memButton">M-</button>
+        <button id="rPN" class="buttons action memButton">RPN</button>
+      </p>
+      <p id="rootReset">
+        <button id="pi" class="buttons symbol">Pi</button>
+        <button id="squarePower" class="buttons action nonRPN">x^2</button>
+        <button id="squareRoot" class="buttons action nonRPN">Sqrt</button>
+        <button id="leftParenthesis" class="buttons symbol">(</button>
+        <button id="rightParenthesis" class="buttons symbol">)</button>
+        <button id="reset" class="buttons action reset">C</button>
+      </p>
+      <p id="sevenEightNine">
+        <button id="delLast" class="buttons action">Del</button>
+        <button id="powerThree" class="buttons action nonRPN">x^3</button>
+        <button id="sevenButton" class="buttons symbol base">7</button>
+        <button id="eightButton" class="buttons symbol base">8</button>
+        <button id="nineButton" class="buttons symbol base">9</button>
+        <button id="plusButton" class="buttons action base rPNAction">+</button>
+      </p>
+      <p id="fourFiveSix">
+        <button id="sin" class="buttons action nonRPN">Sin</button>
+        <button id="power" class="buttons action nonRPN">x^y</button>
+        <button id="fourButton" class="buttons symbol base">4</button>
+        <button id="fiveButton" class="buttons symbol base">5</button>
+        <button id="sixButton" class="buttons symbol base">6</button>
+        <button id="subtractButton" class="buttons action base rPNAction">-</button>
+      </p>
+      <p id="oneTwoThree">
+        <button id="cos" class="buttons action nonRPN">Cos</button>
+        <button id="plusMinus" class="buttons action nonRPN">+/-</button>
+        <button id="oneButton" class="buttons symbol base">1</button>
+        <button id="twoButton" class="buttons symbol base">2</button>
+        <button id="threeButton" class="buttons symbol base">3</button>
+        <button id="multiplyButton" class="buttons action base rPNAction">*</button>
+      </p>
+      <p id="nullDot">
+        <button id="exp" class="buttons symbol">e</button>
+        <button id="percent" class="buttons action nonRPN">%</button>
+        <button id="nullButton" class="buttons symbol base">0</button>
+        <button id="dotButton" class="buttons  symbol base">.</button>
+        <button id="equalButton" class="buttons action base">=</button>
+        <button id="divisionButton" class="buttons action base rPNAction">/</button>
+      </p>
+    </div>
+  </div>
+  <div id='description'>
+    <p><h1 class='description'>Description:</h1></p>
+    <p><h3 class='description'>The dual-mode calculator. The possibility of calculating both the classic calculator, as well as the ability to calculate complex expressions using reverse polish notation. To activate / deactivate the use of RPN, you must press the appropriate button - "RPN". When using classic mode all buttons except the brackets. When using RPN, some buttons are disabled. Among the additional features implemented include: memory operations calculator, such as recording in memory, reading from memory, delete from memory, adding to the number in memory and subtracts from the number in memory, also realized the calculation of the square root of a number raised to the square to cube and in any degree, added the numbers "Pi" and "e", the calculation of the sine and cosine operation with interest, the ability to change the +/- sign, as well as removing the last character. The buttons can be pressed using the keyboard or mouse. Additional keys: "P" - the number Pi, "e" - exponent, "C" - discharge of all values on the screen, "Backspace" - delete the last character, "Enter" - operation "equal", "R" - activation mode reverse Polish Notation, "%" - the operations with percents.</h3></p>
+  </div>
+</body>
+
+</html>
